@@ -161,16 +161,16 @@ if __name__ == '__main__':
 
 
     # trajectories on TAAHM
-    detlist = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_Frasier/detlist.txt' 
-    jpgdir  = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_Frasier/frames_prune/'
-    savedir = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_Frasier/det_result_txt/'
-    samplefolder = 'S01/E0001.mkv/00000007/'
+    # detlist = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_Frasier/detlist.txt' 
+    # jpgdir  = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_Frasier/frames_prune/'
+    # savedir = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_Frasier/det_result_txt/'
+    # samplefolder = 'S01/E0001.mkv/00000007/'
 
     # matches on TAAHM
-    # detlist = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_TAAHM/matches/002_FriendsData_max10Match.h5.imlist' 
-    # jpgdir  = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_TAAHM/matches/cpframes/'
-    # savedir = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_TAAHM/matches/det_result_txt/'
-    # samplefolder = 'S01/E0001.mkv/'
+    detlist = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_Frasier/matches/002_FriendsData_max10Match.h5.imlist' 
+    jpgdir  = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_Frasier/matches/cpframes/'
+    savedir = '/nfs/ladoga_no_backups/users/xiaolonw/affordance_Frasier/matches/det_result_txt/'
+    samplefolder = 'S01/E0001.mkv/'
 
     samplelen = len(samplefolder)
 
